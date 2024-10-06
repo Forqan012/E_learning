@@ -40,42 +40,25 @@
             <input type="text" id="phone" name="phone" class="form-control" required>
           </div>
         </div>
-        <!-- DOB and Gender  -->
+
+        <!-- DOB and Gender -->
         <div class="row">
           <div class="col-md-6 mb-3">
             <label for="dob" class="form-label">DOB</label>
-            <input type="date" id="dob" name="dob" class="form-control" required>
+            <input type="date" id="date" name="date" class="form-control" required>
           </div>
           <div class="col-md-6 mb-3">
             <label for="gender" class="form-label">Gender</label>
-            <select id="gender" name="gender" class="form-select" required>
-              <option value="" disabled selected>Select your gender</option>
+            <select name="gender" id="gender" class="form-select">
+              <option value="" selected disabled>Select your gender</option>
               <option value="male">Male</option>
               <option value="female">Female</option>
               <option value="other">Other</option>
             </select>
           </div>
+
         </div>
-        <!-- Role and Status -->
-        <div class="row">
-          <div class="col-md-6 mb-3">
-            <label for="role" class="form-label">Role</label>
-            <select id="role" name="role" class="form-select" required>
-              <option value="" disabled selected>Select your role</option>
-              <option value="admin">Admin</option>
-              <option value="teacher">Teacher</option>
-              <option value="student">Student</option>
-            </select>
-          </div>
-          <div class="col-md-6 mb-3">
-            <label for="status" class="form-label">Status File</label>
-            <select name="status" id="status" class="form-select">
-              <option value="" disabled selected></option>
-              <option value="active">Active</option>
-              <option value="unactive">Unactive</option>
-            </select>
-          </div>
-        </div>
+
         <!-- Password and Confirm Password -->
         <div class="row">
           <div class="col-md-6 mb-3">
@@ -91,10 +74,13 @@
         <div class="form-check form-check-inline mb-3">
           <input type="checkbox" id="terms" name="terms" class="form-check-input" required>
           <label for="terms" class="form-check-label">
-            <a href="terms.php" class="text-decoration-none">I agree to the terms and conditions</a>
+            <span>I agree to the</span>
+            <a href="terms.php" class="text-decoration-none "> terms and conditions</a>
           </label>
         </div>
-        <button type="submit" class="btn btn-primary w-100">Register</button>
+        <button type="submit" class="btn btn-primary w-100 mb-3">Register</button>
+        <span>Already have an account?</span>
+        <a href="login.php">Login</a>
       </form>
     </div>
   </div>
@@ -105,4 +91,3 @@
 </body>
 
 </html>
-

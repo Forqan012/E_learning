@@ -10,6 +10,7 @@
 </head>
 
 <body>
+  
 
   <div class="container terms-container my-5">
     <h1 class="pt-5">Terms and Conditions</h1>

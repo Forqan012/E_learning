@@ -31,6 +31,8 @@
           <label class="form-check-label" for="remember">Remember me</label>
         </div>
         <button type="submit" class="btn btn-primary w-100">Login</button>
+        <p class="mt-3">Don't have an account? <a href="register.php">Register Here</a></p>
+       <a class="text-decoration-none" href="index.php">Home</a>
       </form>
     </div>
   </div>
