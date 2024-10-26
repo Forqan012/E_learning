@@ -26,7 +26,7 @@
           </div>
           <div class="col-md-6 mb-3">
             <label for="last_name" class="form-label">Last Name</label>
-            <input type="text" id="last_name" name="last_name" class="form-control" required>
+            <input type="text" id="last_name" name="last_name"  class="form-control" required>
           </div>
         </div>
         <!-- Email and Phone -->
@@ -41,7 +41,7 @@
           </div>
         </div>
 
-        <!-- DOB and Gender -->
+        <!-- DO and Gender -->
         <div class="row">
           <div class="col-md-6 mb-3">
             <label for="dob" class="form-label">DOB</label>
@@ -51,7 +51,7 @@
             <label for="gender" class="form-label">Gender</label>
             <select name="gender" id="gender" class="form-select">
               <option value="" selected disabled>Select your gender</option>
-              <option value="male">Male</option>
+              <option value="male" >Male</option>
               <option value="female">Female</option>
               <option value="other">Other</option>
             </select>
