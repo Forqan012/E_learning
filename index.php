@@ -13,38 +13,12 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
   <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-  <!-- navbar -->
-  <nav class="navbar navbar-expand-lg">
-    <div class="container">
-      <a class="navbar-brand" href="#">Logo</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item active">
-            <a class="nav-link me-3" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link me-3" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link me-3" href="#">Courses</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link me-3" href="contact.php">Contact</a>
-          </li>
-        </ul>
-        <a href="login.php" class="btn btn-filter btn-light my-2 text-white ms-3">Get Started</a>
-      </div>
-    </div>
-  </nav>
+  <!-- header -->
+ <?php include 'includes/header.php' ?>
 
   <!-- banner -->
   <div class="banner">
@@ -52,7 +26,7 @@
       <div class="row">
         <div class="col-md-6 mt-5">
           <div class="d-flex ms-5">
-            <h1 class="color-F48C06 ms-5 mt-5 me-2">Studying </h1>
+            <h1 class="text-dark ms-5 mt-5 me-2">Studying </h1>
             <h1 class="mt-5 text-white"> Online is now</h1>
           </div>
           <div class="ms-5">
@@ -63,7 +37,8 @@
               <p class="ms-5 text-white">
                 Interactive E-Tutor is an interesting platform that will teach <br>you in a more interactive way
               </p>
-              <button class=" btn-dark ms-5 text-dark" type="submit">Get Started</button>
+              <button class="btn-new ms-5 text-dark" type="submit">Get Started</button>
+
             </div>
           </div>
         </div>
@@ -90,7 +65,7 @@
             attendance, payments and virtual classrooms all in one secure cloud-based system.</p>
         </div>
         <div>
-          <button class="btn-filter btn-light my-2 text-white" type="submit">Get Started</button>
+          <button class="btn-n btn-light my-2 text-white" type="submit">Get Started</button>
         </div>
       </div>
       <div class="col-md-6  position-relative">
@@ -102,7 +77,7 @@
     </div>
   </div>
 
-  <!-- Courses Section -->
+  <!-- Courses  -->
   <div class="famous-categorie py-5">
     <div class="container">
       <div id="courseCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
@@ -110,15 +85,15 @@
           <h1 class="text-center ">Courses</h1>
         </div>
         <div class="col-md-12 d-flex justify-content-center py-3">
-          <button class="btn-filter me-3 text-white"> All</button>
-          <button class="btn-filter me-3 text-white"> HTML</button>
-          <button class="btn-filter me-3 text-white"> CSS</button>
-          <button class="btn-filter me-3 text-white"> PHP</button>
-          <button class="btn-filter me-3 text-white"> Bootstrap</button>
-          <button class="btn-filter me-3 text-white"> XML</button>
-          <button class="btn-filter me-3 text-white"> Java</button>
-          <button class="btn-filter me-3 text-white"> Node JS</button>
-          <button class="btn-filter me-3 text-white"> JS</button>
+          <button class="btn-n me-3 text-white"> All</button>
+          <button class="btn-n me-3 text-white"> HTML</button>
+          <button class="btn-n me-3 text-white"> CSS</button>
+          <button class="btn-n me-3 text-white"> PHP</button>
+          <button class="btn-n me-3 text-white"> Bootstrap</button>
+          <button class="btn-n me-3 text-white"> XML</button>
+          <button class="btn-n me-3 text-white"> Java</button>
+          <button class="btn-n me-3 text-white"> Node JS</button>
+          <button class="btn-n me-3 text-white"> JS</button>
         </div>
         <div class="carousel-inner mb-4">
           <div class="carousel-item active">
@@ -388,7 +363,7 @@
                 <i class="bi bi-star-fill" style="color: gold;"></i>
               </span>
               <div class="mt-auto">
-                <a href="#" class="btn-filter text-decoration-none text-white">Price: $10</a>
+                <a href="#" class="btn-n text-decoration-none text-white">Price: $10</a>
               </div>
             </div>
           </div>
@@ -407,7 +382,7 @@
                 <i class="bi bi-star-fill" style="color: gold;"></i>
               </span>
               <div class="mt-auto">
-                <a href="#" class="btn-filter text-decoration-none text-white">Price: $10</a>
+                <a href="#" class="btn-n text-decoration-none text-white">Price: $10</a>
               </div>
             </div>
           </div>
@@ -426,7 +401,7 @@
                 <i class="bi bi-star-fill" style="color: gold;"></i>
               </span>
               <div class="mt-auto">
-                <a href="#" class="btn-filter text-decoration-none text-white">Price: $10</a>
+                <a href="#" class="btn-n text-decoration-none text-white">Price: $10</a>
               </div>
             </div>
           </div>
@@ -445,7 +420,7 @@
                 <i class="bi bi-star-fill" style="color: gold;"></i>
               </span>
               <div class="mt-auto">
-                <a href="#" class="btn-filter text-decoration-none text-white">Price: $10</a>
+                <a href="#" class="btn-n text-decoration-none text-white">Price: $10</a>
               </div>
             </div>
           </div>
@@ -464,7 +439,7 @@
                 <i class="bi bi-star-fill" style="color: gold;"></i>
               </span>
               <div class="mt-auto">
-                <a href="#" class="btn-filter text-decoration-none text-white">Price: $10</a>
+                <a href="#" class="btn-n text-decoration-none text-white">Price: $10</a>
               </div>
             </div>
           </div>
@@ -483,7 +458,7 @@
                 <i class="bi bi-star-fill" style="color: gold;"></i>
               </span>
               <div class="mt-auto">
-                <a href="#" class="btn-filter text-decoration-none text-white">Price: $10</a>
+                <a href="#" class="btn-n text-decoration-none text-white">Price: $10</a>
               </div>
             </div>
           </div>
@@ -502,7 +477,7 @@
                 <i class="bi bi-star-fill" style="color: gold;"></i>
               </span>
               <div class="mt-auto">
-                <a href="#" class="btn-filter text-decoration-none text-white">Price: $10</a>
+                <a href="#" class="btn-n text-decoration-none text-white">Price: $10</a>
               </div>
             </div>
           </div>
@@ -523,8 +498,8 @@
       </p>
 
       <!-- Why Teach with Us? -->
-      <div class="row justify-content-center my-4">
-        <div class="col-md-3 mb-3">
+      <div class="row justify-content-center">
+        <div class="col-md-3 ">
           <div class="card bg-transparent border-0">
             <div class="card-body ">
               <h5 class="card-title fw-bold">Flexible Schedule</h5>
@@ -532,7 +507,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 mb-3">
+        <div class="col-md-3 ">
           <div class="card bg-transparent border-0">
             <div class="card-body">
               <h5 class="card-title fw-bold">Earn Extra Income</h5>
@@ -540,7 +515,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 mb-3">
+        <div class="col-md-3">
           <div class="card bg-transparent border-0">
             <div class="card-body">
               <h5 class="card-title fw-bold">Global Reach</h5>
@@ -548,7 +523,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 mb-3">
+        <div class="col-md-3 ">
           <div class="card bg-transparent border-0">
             <div class="card-body">
               <h5 class="card-title fw-bold">Simple Tools</h5>
@@ -560,77 +535,13 @@
 
       <!-- Call to Action Button -->
       <div class="d-flex justify-content-center mt-4">
-        <a href="#" class="btn-light text-decoration-none text-white px-4 py-2">Start Teaching Today</a>
+        <a href="#" class="btn-n text-decoration-none  px-4 py-2">Start Teaching Today</a>
       </div>
     </div>
   </div>
 
   <!-- footer -->
-  <div class="footer">
-    <div class="container">
-      <div class="row">
-        <!-- Column 1: Logo and description -->
-        <div class="col-md-3 mt-5">
-          <div>
-            <a href="#" class="text-white text-decoration-none my-5">Logo</a>
-            <p class="text-white my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis quidem ea ex
-              provident. Sequi quos sint placeat nobis eius debitis minima aliquid non. Aspernatur commodi incidunt
-              voluptates consequuntur, architecto aperiam.</p>
-          </div>
-        </div>
-
-        <!-- Column 2: Courses List -->
-        <div class="col-md-3 py-5">
-          <div>
-            <h3 class="text-white ms-5 mt-4">Courses</h3>
-          </div>
-          <ul class="text-white list-unstyled ms-5 ">
-            <a href="#" class="text-decoration-none text-white ">
-              <li class="mb-2">HTML</li>
-            </a>
-            <a href="#" class="text-decoration-none text-white ">
-              <li class="mb-2">CSS</li>
-            </a>
-            <a href="#" class="text-decoration-none text-white">
-              <li class="mb-2">Bootstrap</li>
-            </a>
-            <a href="#" class="text-decoration-none text-white">
-              <li class="mb-2">PHP</li>
-            </a>
-            <a href="#" class="text-decoration-none text-white">
-              <li class="mb-2">React</li>
-            </a>
-            <a href="#" class="text-decoration-none text-white">
-              <li class="mb-2">XML</li>
-            </a>
-          </ul>
-        </div>
-
-        <!-- Column 3: Some additional content -->
-        <div class="col-md-3 mt-5">
-          <ul class="mt-4 ">
-            <li class="mb-2"><a href="#" class="text-decoration-none text-white">Help Desk</a></li>
-            <li class="mb-2"><a href="#" class="text-decoration-none text-white">About Us</a></li>
-            <li class="mb-2"><a href="#" class="text-decoration-none text-white">Contact Us</a></li>
-          </ul>
-        </div>
-
-        <!-- Column 4: Another section of additional content -->
-        <div class="col-md-3 mt-5">
-          <ul class="mt-4 ">
-            <li class="mb-2"><a href="#" class="text-decoration-none text-white">Legal Concerns</a></li>
-            <li class="mb-2"><a href="#" class="text-decoration-none text-white">Private Policy</a></li>
-            <li class="mb-2"><a href="#" class="text-decoration-none text-white">Trems & Conditions</a></li>
-          </ul>
-        </div>
-        <div class="col-md-12 text-center p">
-          <div class="text-white">
-            Copyright &copy;2024. All right reserved
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+   <? include 'includes/footer.php' ?> 
 
   <!-- Scripts -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"

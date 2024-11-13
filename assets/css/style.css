@@ -1,52 +1,57 @@
-.color-49BBBD {
-  color: #49BBBD;
-}
-
-.color-545AE8 {
-  color: #545AE8;
-}
 
 .color-00CBB8 {
   color: #00CBB8;
 }
 
 .color-F48C06 {
-  color: #F48C06;
+  color: #936019;
 }
 
 .color-666 {
   color: #666;
 }
-
-.color-252641 {
-  color: #252641;
-}
-
-/* text color */
-.color-696984 {
-  color: #696984;
-}
-
-.btn-filter-new {
-  padding: 15px 30px;
-}
-
-.btn-filter:hover {
-  background-color: #009688;
-  /* Slightly darker teal on hover */
-}
-
-/* btn-dark */
-.btn-dark {
+.btn-n{
+  background-color: #00CBB8;
   padding: 10px 20px;
-  border: 2px solid white;
-  background-color: #FFFFFF;
+  color: white;
   border-radius: 30px;
+  border: none;
 }
+.btn-n:hover{
+  background-color: #252641;
+}
+
+
+.btn-new{
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  outline: none;  
+}
+.btn-new:hover{
+  background-color: #252641;
+  color: #fff !important;
+}
+
+
+
+.get-started-btn {
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.get-started-btn:hover {
+  background-color: #333; /* Darker shade */
+  color: #fff; /* White text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow */
+}
+
 
 .card {
   border-radius: 20px;
 }
+
+/* navbar */
 
 /* banner */
 .banner {

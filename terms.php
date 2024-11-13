@@ -11,6 +11,8 @@
 
 <body>
   
+  <!-- header -->
+  <?php include 'includes/header.php' ?>
 
   <div class="container terms-container my-5">
     <h1 class="pt-5">Terms and Conditions</h1>
@@ -56,6 +58,9 @@
       Email: [Your Email] <br>
       Phone: [Your Phone Number]</p>
   </div>
+
+ <!-- footer -->
+ <? include 'includes/footer.php' ?> 
 
   <!-- Bootstrap JS link -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
